@@ -1,0 +1,8 @@
+apiVersion: rebalancer.io/v1alpha1
+kind: RebalancingPolicy
+metadata:
+  name: default
+spec:
+  maxCpuReductionPerCycle: 10%
+  cooldownPeriod: 30m
+  saturationWindow: 15m
